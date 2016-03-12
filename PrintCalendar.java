@@ -98,23 +98,7 @@ public class PrintCalendar {
 	return weekName;
   }
 
-  /** Get the total number of days since January 1, 1800 */
-  public static int getTotalNumberOfDays(int year, int month) {
-    int total = 0;
 
-    // Get the total days from 1800 to 1/1/year
-    for (int i = 1800; i < year; i++)
-      if (isLeapYear(i))
-        total = total + 366;
-      else
-        total = total + 365;
-
-    // Add days from Jan to the month prior to the calendar month
-    for (int i = 1; i < month; i++)
-      total = total + getNumberOfDaysInMonth(year, i);
-
-    return total;
-  }
 
   /** Get the number of days in a month */
   public static int getNumberOfDaysInMonth(int year, int month) {
