@@ -6,8 +6,8 @@ You should use the Command Line like java Calender 3 2016 .
 The result is  
          March 2016  
 -----------------------------  
- SunMonTueWedThuFriSat  
- 12345   
+ Sun Mon Tue Wed Thu Fri Sat  
+           1   2   3   4   5   
  6789101112  
  13141516171819  
  20212223242526  
