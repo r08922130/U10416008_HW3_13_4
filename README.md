@@ -3,7 +3,7 @@
 It is a program that can print the Calender you want to know.  
 You should use the Command Line like java Calender 3 2016 .  
 3 is month ,2016 is year .  
-The result i  
+The result is  
          March 2016  
 -----------------------------  
  Sun Mon Tue Wed Thu Fri Sat  
